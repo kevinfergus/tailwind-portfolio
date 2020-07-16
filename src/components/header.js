@@ -20,6 +20,11 @@ function Header() {
 						<span className="text-xl font-bold tracking-tight">Work</span>
 					</h1>
 				</Link>
+				<Link to="/media">
+					<h1 className="flex items-center text-white no-underline">
+						<span className="text-xl font-bold tracking-tight">Media</span>
+					</h1>
+				</Link>
 			</div>
 		</header>
 	);
