@@ -10,19 +10,14 @@ function Header() {
 						<span className="text-xl font-bold tracking-tight">Home</span>
 					</h1>
 				</Link>
-				<Link to="/about">
-					<h1 className="flex items-center text-white no-underline">
-						<span className="text-xl font-bold tracking-tight">About</span>
-					</h1>
-				</Link>
 				<Link to="/contact">
 					<h1 className="flex items-center text-white no-underline">
 						<span className="text-xl font-bold tracking-tight">Contact</span>
 					</h1>
 				</Link>
-				<Link to="/portfolio">
+				<Link to="/work">
 					<h1 className="flex items-center text-white no-underline">
-						<span className="text-xl font-bold tracking-tight">Portfolio</span>
+						<span className="text-xl font-bold tracking-tight">Work</span>
 					</h1>
 				</Link>
 			</div>
