@@ -13,7 +13,7 @@ function Work() {
 		<Layout>
 			<div className="w-full p-6 bg-white">
 				<div className="w-48 mx-auto pt-6 border-b-2 border-teal-700 text-center text-2xl text-blue-700">
-					<div className="p-2 text-center text-lg text-gray-700">Sites and source code</div>
+					<div className="p-2 text-center text-lg text-gray-700" />
 				</div>
 
 				<section className="flex flex-col items-center md:flex-row">
