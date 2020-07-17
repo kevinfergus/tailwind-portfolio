@@ -6,19 +6,20 @@ import gracechopper from '../images/gracechopper.png';
 
 function Work() {
 	const [ image, setImage ] = useState(null);
+	console.log(image);
+	const backgroundImage = image;
+	console.log(backgroundImage);
 	return (
 		<Layout>
 			<div className="w-full p-6 bg-white">
 				<div className="w-48 mx-auto pt-6 border-b-2 border-teal-700 text-center text-2xl text-blue-700">
 					<div className="p-2 text-center text-lg text-gray-700">Sites and source code</div>
 				</div>
+
 				<section className="flex flex-col items-center md:flex-row">
-					<div className="h-auto w-auto border-b-2 border-teal-700 ">
-						<div>{image ? <img className="rounded" alt="headshot" src={image} /> : <div />}</div>
-					</div>
 					<div className="flex justify-center flex-wrap p-10">
 						<a
-							className="relative w-200 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
+							className="relative w-100 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
 							href="https://video-app-8491-dev.twil.io/login"
 							onMouseEnter={function(e) {
 								console.log(e);
@@ -77,7 +78,12 @@ function Work() {
 						</a>
 					</div>
 				</section>
-			</div>{' '}
+				<div className="inset-y-0.left-0
+
+">
+					<div>{image ? <img alt="headshot" src={image} /> : <div />}</div>
+				</div>
+			</div>
 		</Layout>
 	);
 }
