@@ -59,7 +59,7 @@ function Work() {
 						</a>
 						<a
 							className="relative w-400 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
-							href="https://video-app-8491-dev.twil.io/login"
+							href="https://github.com/kevinfergus/hottakerep/tree/master/hottesttake"
 							onMouseEnter={function(e) {
 								console.log(e);
 								setImage(hottake);

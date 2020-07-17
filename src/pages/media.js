@@ -7,7 +7,12 @@ function Media() {
 		<Layout>
 			<div>
 				<section className="flex flex-row items-center md:flex-row">
-					<div>Code demo for gather</div>
+					<div className="text-lg">
+						Demonstration and explanation of{' '}
+						<a className="underline" href="https://video-app-8491-dev.twil.io/login">
+							Gather
+						</a>
+					</div>
 					<ReactPlayer
 						className="m-4"
 						url="https://www.youtube.com/watch?v=vl0p6XHA1vk&list=PLx0iOsdUOUmnf7I22qeTz8ms5tPM14dgg&index=18&t=0s"
@@ -15,7 +20,16 @@ function Media() {
 				</section>
 				<div>
 					<section className="flex flex-row items-center md:flex-row">
-						<div>Code demo for Hot Take</div>
+						<div className="text-lg">
+							{' '}
+							Demonstration and explanation of{' '}
+							<a
+								className="underline"
+								href="https://github.com/kevinfergus/hottakerep/tree/master/hottesttake"
+							>
+								Hot Take
+							</a>
+						</div>
 						<ReactPlayer
 							className="m-4"
 							url="https://www.youtube.com/watch?v=ZDr53uP2phE&feature=youtu.be"

@@ -14,8 +14,8 @@ function ContactPage() {
 					action="https://getform.io/f/450e7ab2-0c46-43e9-a20b-bb070b56c8f9"
 				>
 					<p className="mb-8 leading-loose">
-						Have a project you need help with, a role I&aps;d be a great fit for, or do you just wanna chat?
-						Fill out the form below and I&apos;ll get back to you shortly.
+						Have a project you need help with? A job I&apos;d be a great fit for? Just want to chat? Fill
+						out the form and you&apos;ll hear from me soon.
 						<a
 							className="font-bold text-gray-700 no-underline"
 							href="https://github.com/tailwindcss/custom-forms"
