@@ -6,9 +6,6 @@ import gracechopper from '../images/gracechopper.png';
 
 function Work() {
 	const [ image, setImage ] = useState(null);
-	console.log(image);
-	const backgroundImage = image;
-	console.log(backgroundImage);
 	return (
 		<Layout>
 			<div className="w-full p-6 bg-white">
@@ -20,19 +17,22 @@ function Work() {
 					<div className="flex justify-center flex-wrap p-10">
 						<a
 							className="relative w-100 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
+							name="gather"
 							href="https://video-app-8491-dev.twil.io?passcode=6568508491"
-							onMouseEnter={function(e) {
-								console.log(e);
+							onMouseEnter={function() {
 								setImage(gather);
 							}}
 						>
-							<div className="flex items-center w-full h-3 bg-teal-900">
-								<i className="fas fa-bezier-curve fa-3x mx-auto text-white" />
+							<div className="flex items-center w-full h-3 bg-teal-900" name="gather">
+								<i className="fas fa-bezier-curve fa-3x mx-auto text-white" name="gather" />
 							</div>
-							<p className="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase">
+							<p
+								className="mx-2 py-2 border-b-2 text-center text-gray-700 font-semibold uppercase"
+								name="gather"
+							>
 								Gather
 							</p>
-							<p className="p-2 text-sm text-gray-700">
+							<p className="p-2 text-sm text-gray-700" name="gather">
 								Video conferencing application that puts users in a shared space with a common
 								background. Built with React, Typescript, Twilio, Firebase Realtime Database and
 								Tensor-Flow.
@@ -41,8 +41,7 @@ function Work() {
 						<a
 							className="relative w-400 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
 							href="https://github.com/Grace-Chopper/grace-chopper"
-							onMouseEnter={function(e) {
-								console.log(e);
+							onMouseEnter={function() {
 								setImage(gracechopper);
 							}}
 						>
@@ -60,8 +59,7 @@ function Work() {
 						<a
 							className="relative w-400 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
 							href="https://github.com/kevinfergus/hottakerep/tree/master/hottesttake"
-							onMouseEnter={function(e) {
-								console.log(e);
+							onMouseEnter={function() {
 								setImage(hottake);
 							}}
 						>
