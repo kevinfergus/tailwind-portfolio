@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 function ContactPage() {
+	useEffect(() => {
+		document.title = 'Kevin Fergus';
+	});
 	return (
 		<Layout>
 			<SEO keywords={[ `gatsby`, `tailwind`, `react`, `tailwindcss` ]} title="Contact" />

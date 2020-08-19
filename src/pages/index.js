@@ -4,17 +4,10 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import headshot from '../images/headshot.png';
 import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
 
 function IndexPage() {
 	return (
 		<div>
-			<Helmet>
-				<meta charSet="utf-8" />
-				<title>Kevin Fergus</title>
-				<link rel="canonical" href="kevinfergus.com" />
-			</Helmet>
-
 			<Layout>
 				<SEO keywords={[ `gatsby`, `tailwind`, `react`, `tailwindcss` ]} title="About" />
 
