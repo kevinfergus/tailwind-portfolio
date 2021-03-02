@@ -4,7 +4,7 @@ import gather from '../images/gather.png';
 import hottake from '../images/hottake.png';
 import gracechopper from '../images/gracechopper.png';
 
-function Work() {
+function Projects() {
 	const [ image, setImage ] = useState(null);
 	return (
 		<Layout>
@@ -86,4 +86,4 @@ function Work() {
 	);
 }
 
-export default Work;
+export default Projects;

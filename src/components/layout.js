@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import linkedIn from '../images/linkedIn.png';
-import github from '../images/github.png';
+import resume from '../images/resume.pdf'
 
 import Header from './header';
 
@@ -14,27 +13,26 @@ function Layout({ children }) {
 
 			<footer className="bg-teal-700">
 				<nav className="flex justify-center max-w-4xl p-4 mx-auto text-sm md:p-8">
-					<p className="text-white h-20 w-20 m-5">
-						<a
-							className="font-bold no-underline"
-							href="https://www.linkedin.com/in/kevin-fergus/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img src={linkedIn} />
-						</a>
-					</p>
+				<a className="flex items-center text-white no-underline transform hover:-translate-y-1 hover:scale-110 m-5" href="https://www.linkedin.com/in/kevin-fergus/">
+						<span className="text-xl tracking-tight">LinkedIn</span>
+				</a>
+				<a className="flex items-center text-white no-underline transform hover:-translate-y-1 hover:scale-110 m-5" href="https://github.com/kevinfergus">
+						<span className="text-xl tracking-tight">GitHub</span>
+				</a>
 
-					<p className="text-white h-20 w-20 m-5">
-						<a
-							className="font-bold text-white no-underline"
-							href="https://github.com/kevinfergus"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img src={github} />
-						</a>
-					</p>
+				<a className="flex items-center text-white no-underline transform hover:-translate-y-1 hover:scale-110 m-5" href={resume}>
+						<span className="text-xl tracking-tight">Resume</span>
+				</a>
+
+				<a className="flex items-center text-white no-underline transform hover:-translate-y-1 hover:scale-110 m-5">
+						<span className="text-xl tracking-tight">(847)322-8527</span>
+				</a>
+				<a className="flex items-center text-white no-underline transform hover:-translate-y-1 hover:scale-110 m-5">
+						<span className="text-xl tracking-tight"> kevinfergus89@gmail.com </span>
+				</a>
+
+
+
 				</nav>
 			</footer>
 		</div>
