@@ -5,7 +5,7 @@ import hottake from '../images/hottake.png';
 import gracechopper from '../images/gracechopper.png';
 
 function Projects() {
-	const [ image, setImage ] = useState(null);
+	const [ image, setImage ] = useState(gather);
 	return (
 		<Layout>
 			<div className="w-full p-6 bg-white">
