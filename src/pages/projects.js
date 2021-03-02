@@ -9,11 +9,10 @@ function Projects() {
 	return (
 		<Layout>
 			<div className="w-full p-6 bg-white">
-				<div className="w-48 mx-auto pt-6 border-b-2 border-teal-700 text-center text-2xl text-blue-700">
-					<div className="p-2 text-center text-lg text-gray-700" />
-				</div>
 
-				<section className="flex flex-col items-center md:flex-row">
+				<section className="flex flex-col items-center">
+				<figure className="w-2/3 md:w-1/3 m-0">
+{image ? <img alt="headshot" src={image} /> : <div />}</figure>
 					<div className="flex justify-center flex-wrap p-10">
 						<a
 							className="relative w-100 h-auto m-5 bg-white shadow-xl transform hover:-translate-y-1 hover:scale-110"
@@ -76,10 +75,7 @@ function Projects() {
 						</a>
 					</div>
 				</section>
-				<div className="inset-y-0.left-0
-
-">
-					<div>{image ? <img alt="headshot" src={image} /> : <div />}</div>
+				<div className="inset-y-0.left-0">
 				</div>
 			</div>
 		</Layout>
